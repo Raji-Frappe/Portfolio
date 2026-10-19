@@ -44,7 +44,7 @@ h2{font-size:28px;margin:0 0 6px}
 .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--teal),var(--plum));border-radius:9px}
 .chips{display:flex;flex-wrap:wrap;gap:10px}
 .chips span{background:var(--surface);border:1px solid var(--line);padding:8px 16px;border-radius:99px;font-size:14px;font-weight:500}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+ul.pt{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:14px}.tech{margin-top:10px!important;color:var(--teal)!important;font-weight:600}.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 @media(max-width:760px){.two{grid-template-columns:1fr}}
 .cta{background:linear-gradient(135deg,var(--plum),var(--teal));color:#fff;border-radius:24px;padding:36px;text-align:center}
 .cta h2{color:#fff}
@@ -54,7 +54,7 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:28px 0}
 </head>
 <body>
 <nav><div class="wrap"><b>Rajeswari M</b>
-<ul><li><a href="#about">About</a></li><li><a href="#modules">Modules</a></li><li><a href="#skills">Skills</a></li><li><a href="#goals">Goals</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+<ul><li><a href="#about">About</a></li><li><a href="#modules">Modules</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#goals">Goals</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
 
 <main class="wrap">
 <header class="hero">
@@ -70,7 +70,7 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:28px 0}
 
 <div class="stats">
 <div class="stat"><b>1 yr</b><small>ERPNext experience</small></div>
-<div class="stat"><b>4</b><small>Core modules</small></div>
+<div class="stat"><b>5</b><small>Client projects</small></div>
 <div class="stat"><b>3 mo</b><small>Vintrosys mentoring</small></div>
 </div>
 
@@ -103,16 +103,39 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:28px 0}
 <div class="card"><p style="font-size:16px;color:var(--text)">During this training, I worked with different ERPNext modules and understood their business flow. I also started learning how modules work in the backend and how ERPNext handles data and processes. Next, I want to learn more about Frappe backend, Python, APIs, integrations and advanced ERPNext development.</p></div>
 </section>
 
+<section id="projects">
+<h2>Projects</h2>
+<p class="sub">Real client work I have done.</p>
+<div class="grid">
+<div class="card"><h3>Yaanee Fashions</h3><p><b>Night Shift Attendance</b></p><ul class="pt"><li>Made the first attendance setup for the company.</li><li>Employees working after 12 AM get correct IN and OUT.</li></ul><p class="tech">ERPNext HR · Frappe · Python</p></div>
+<div class="card"><h3>Glenmargon</h3><p><b>Full HRMS Module</b></p><ul class="pt"><li>Built the full HRMS, from employee check-in to reports.</li><li>Employee, Attendance, Leave, Payroll and HR reports.</li></ul><p class="tech">ERPNext HR · Frappe · Python</p></div>
+<div class="card"><h3>Precision</h3><p><b>HR Reports for 12 Branches</b></p><ul class="pt"><li>HR reports and print formats for 12 branches.</li><li>Different screens, same backend logic.</li><li>WhatsApp sending and daily morning email.</li></ul><p class="tech">Frappe · Python · Jinja · Scheduler</p></div>
+<div class="card"><h3>Poomer</h3><p><b>Cutting Report and Dashboard</b></p><ul class="pt"><li>Created the employee daily cutting report.</li><li>Fixed customisation in the program cumulative dashboard report.</li></ul><p class="tech">Frappe Reports · Python · SQL</p></div>
+<div class="card"><h3>Chakra</h3><p><b>Quotation Print Format</b></p><ul class="pt"><li>Made a custom Quotation print format.</li><li>Did customizations as the client needed.</li></ul><p class="tech">Jinja · Custom Fields · Client Scripts</p></div>
+</div>
+</section>
+
+<section id="solved">
+<h2>Problems Solved</h2>
+<p class="sub">Problem, fix and result.</p>
+<div class="grid">
+<div class="card"><h3>Night shift attendance</h3><p>Wrong IN/OUT after midnight. I fixed the logic, so records are now correct.</p></div>
+<div class="card"><h3>12 branches, one logic</h3><p>Different screens, same data needed. I used one common backend, so reports match in all branches.</p></div>
+<div class="card"><h3>Daily reports</h3><p>Managers asked for reports every day. I automated email and WhatsApp, so reports arrive on time.</p></div>
+<div class="card"><h3>Program cumulative report</h3><p>Worked on the program cumulative report.</p></div>
+</div>
+</section>
+
 <section id="goals">
-<h2>Projects I’d Like to Work On</h2>
-<p class="sub">Ready to learn and work on any project based on company requirements.</p>
-<div class="chips"><span>Custom ERPNext Applications</span><span>Backend Development</span><span>Client Customizations</span><span>Reports &amp; Print Formats</span><span>API &amp; Integrations</span><span>Automation</span><span>New Module Development</span></div>
+<h2>Areas of Interest</h2>
+<p class="sub">Ready to learn and work on any project based on company needs.</p>
+<div class="chips"><span>Python Backend</span><span>APIs &amp; Integrations</span><span>Automation</span><span>New Modules</span><span>Advanced ERPNext Development</span></div>
 </section>
 
 <section>
 <div class="two">
 <div class="card"><h3>🎯 Role I’m Looking For</h3><p style="margin-top:6px"><b style="color:var(--text)">ERPNext Developer / Technical ERPNext Developer.</b> I want to work more on the technical side and become a strong ERPNext developer, learning new things on real-time projects.</p></div>
-<div class="card"><h3>💰 Salary Expectation</h3><p style="margin-top:6px"><b style="color:var(--text);font-size:20px">₹20,000 per month</b><br>Based on my previous salary and experience. My main goal is a good opportunity to improve my technical skills and grow as an ERPNext developer.</p></div>
+<div class="card"><h3>💰 Salary Expectation</h3><p style="margin-top:6px"><b style="color:var(--text);font-size:20px">₹4.2 LPA</b> <span>(full-time role)</span><br>If I am offered a full-time employee role, I would prefer a salary of ₹4.2 LPA.<br><br><b style="color:var(--text);font-size:20px">₹15,000 per month</b> <span>(as intern)</span><br>If I continue as an intern, I would be comfortable with around ₹15,000 per month, which is similar to the salary I received in my previous company.<br><br>I am open to discussing the salary based on the role, responsibilities and company requirements.</p></div>
 </div>
 </section>
 
